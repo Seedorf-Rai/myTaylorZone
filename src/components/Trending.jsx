@@ -71,7 +71,7 @@ export default function Trending() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           {/* Dark overlay */}
           <div className="absolute inset-0 flex items-end justify-center p-6 opacity-0 translate-y-10 hover:opacity-100 hover:translate-y-0 transition-all duration-500 ease-out">
-            <h1 className="text-white text-sm md:text-4xl">
+            <h1 className="text-white text-xs md:text-4xl">
               Join the fashion revolution, where comfort meets elegance in every
               outfit.
             </h1>
@@ -83,7 +83,7 @@ export default function Trending() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           {/* Dark overlay */}
           <div className="absolute inset-0 flex items-end justify-center p-6 opacity-0 translate-y-10 hover:opacity-100 hover:translate-y-0 transition-all duration-500 ease-out">
-            <h1 className="text-white text-sm md:text-4xl">
+            <h1 className="text-white text-xs md:text-4xl">
               Join the fashion revolution, where comfort meets elegance in every
               outfit.
             </h1>
@@ -95,9 +95,8 @@ export default function Trending() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
           {/* Dark overlay */}
           <div className="absolute inset-0 flex items-end justify-center p-6 opacity-0 translate-y-10 hover:opacity-100 hover:translate-y-0 transition-all duration-500 ease-out">
-            <h1 className="text-white text-sm md:text-4xl">
-              From casual wear to chic evening dresses, we have everything to
-              match your unique style.
+            <h1 className="text-white text-xs md:text-4xl">
+              From casual wear to chic evening dresses, we have everything.
             </h1>
           </div>
         </div>

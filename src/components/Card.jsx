@@ -6,7 +6,7 @@ export default function Card({id,name,category,price,rating,image}){
         <Link to={`/products/${id}`}>
           <div>
          <img
-            className="lg:h-[350px] h-[240px] lg:w-[90%] w-[250px] mb-5 object-cover"
+            className="lg:h-[350px] h-[190px] lg:w-[90%] w-[200px] mb-5 object-cover"
             src={image}
             alt=""
           />

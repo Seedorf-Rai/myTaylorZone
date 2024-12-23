@@ -9,7 +9,7 @@ export default function Footer(){
 
     return(
        <>
-         <div className="px-10 flex justify-between py-5">
+         <div className="px-5 md:px-10 flex justify-between py-5">
            <img className="object-cover w-[200px] me-10" src={Logo} alt="" />
            <div className="flex">
            <FaFacebook className="text-3xl me-5" />

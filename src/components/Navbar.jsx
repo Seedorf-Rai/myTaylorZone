@@ -28,9 +28,9 @@ export const Navbar = () => {
   return (
     <>
       {/* Top Announcement Bar */}
-      <div className="w-full flex justify-center sm:text-base text-sm h-auto py-3 font-title bg-[#E6F4FE]">
+      <div className="w-full flex justify-center sm:text-base px-4 text-sm h-auto py-3 font-title bg-[#E6F4FE]">
         <span className="font-medium me-2">
-          Zappos Gift Card: The Perfect Last-Minute Gift{" "}
+          Sahiba Gift Card: The Perfect Last-Minute Gift{" "}
         </span>
         <span className="underline font-semibold">Shop Gift Cards</span>
       </div>

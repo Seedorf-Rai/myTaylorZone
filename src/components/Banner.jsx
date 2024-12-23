@@ -11,7 +11,7 @@ export default function Banner(){
                 Sign up for Zappos emails—new subscribers get 10% off a future order!* Plus, get early access to sales, coupons, and more. (One code per email address.)
                 </p>
                 <div>
-                    <input type="text" className="w-[24rem] md:w-[30rem] py-5 px-10 border-gray-300 border rounded-2xl " placeholder="Email Address" />
+                    <input type="text" className="w-[20rem] md:w-[30rem] py-5 px-10 border-gray-300 border rounded-2xl " placeholder="Email Address" />
                     <button className="px-5 py-5 md:ms-4 rounded-xl mt-4 md:mt-0 bg-gray-950 text-white">Join the Party</button>
                 </div>
             </div>
