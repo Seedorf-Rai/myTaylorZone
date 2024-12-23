@@ -20,6 +20,9 @@ export default function ProductDetail() {
     const selectedProduct = allProducts.find(prod => prod.id === Number(id)); // Convert `id` to a number for strict equality
     setProduct(selectedProduct || {});
   }, [id, allProducts]);
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scroll to the top
+}, [id]);
   return (
     <>
       <div className="px-10 py-10 font-title">
